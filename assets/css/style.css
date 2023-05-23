@@ -1,0 +1,346 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	
+}
+:root{
+
+	--dark:#3B3A42;
+	--black:#000000;
+	--green:#898989;
+	--white:##FFFFFF;
+    --bg:#5F8945;
+}
+
+/*---------------bg sec----- navbar--------*/
+.main-bg{
+	background: var(--bg);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 99%);
+    height: 1200px;
+
+    
+
+}
+.main-bg .navbar .immg{
+	width: 60px;
+}
+.main-bg .navbar .navbar-toggler .navbar-toggler-icon{
+	color: #fff;
+}
+ .main-bg .navbar .collapse .navbar-nav .nav-item .nav-link{
+ 	padding: 20px;
+ 	color: #fff;
+ 	font-family: 'Georama';
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	line-height: 130%;
+ 	letter-spacing: 0.02em;
+ 	text-decoration: none;
+    text-align: center;
+
+
+
+ }
+ .main-bg .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+ 	color: var(--green);
+
+ }
+
+ /*----------bnr------------*/
+ .bnr .img1{
+    position: relative;
+    left: 1050px;
+    top: 50px;
+
+ }
+  .main-bg .bnr h2{
+    color: #fff;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 172px;
+    letter-spacing: 0.02em;
+    margin-top: 70px;
+ }
+  .bnr .img2{
+    position: relative;
+    
+    top: -350px;
+    left: 70px;
+
+ }
+   .bnr .img3{
+    position: relative;
+    
+
+    left: 150px;
+    top: -80px;
+
+ }
+
+
+ /*---------------*/
+ .main-bg .abt-bg{
+ 	margin-top: 110px;
+ }
+ .main-bg .abt-bg h3{
+     color: #fff;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 102px;
+    letter-spacing: 0.02em;
+
+
+ }
+ .main-bg .abt-bg h3 span{
+    color: #FFFF14;
+ }
+ .main-bg .abt-bg .str-img{
+    width: 120px;
+    position: relative;
+    left: 340px;
+    top: -110px;
+
+ }
+ .main-bg .abt-bg p{
+    width: 400px;
+    position: relative;
+    top: -95px;
+    left: 70px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+     font-family: 'Georama';
+    font-style: normal;
+ }
+
+ /*-------------*/
+ .tkn-bg{
+
+   height: 750px;
+   margin-top: -70px;
+
+ }
+
+.tkn{
+    background: var(--bg);
+    opacity: 0.7;
+       clip-path: polygon(0 0, 100% 0, 100% 95%, 0 99%);
+}
+.tkn .tkn-bg img{
+    margin-top: 90px;
+
+}
+
+ /*-------jjjjjjjjjjjjjjjjjjj---*/
+ 
+ .map{
+    background: var(--bg);
+    height:750px;
+    /*margin-top: -50px;*/
+/*    clip-path: polygon(0 0, 100% 0%, 100% 96%, 0 100%);*/
+        margin-top: -40px;
+               clip-path: polygon(0 0, 100% 0, 100% 95%, 0 99%);
+
+ }
+ .map-bg{
+   
+ }
+ .map  h3{
+     color: #FFFF14;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100px;
+    letter-spacing: 0.02em;
+    margin-top: 87px;
+
+ }
+ .map  p{
+    width: 410px;
+    /*position: relative;
+    top: -95px;
+    left: 70px;*/
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+     font-family: 'Georama';
+    font-style: normal;
+    text-align: center;
+ }
+ .map img{
+    margin-top: 200px;
+ }
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+}
+.design-section {
+ /* display: flex;*/
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;*/
+/*  background-color: #1f1f1f;*/
+/*  min-height: 100vh*/;
+  padding: 100px 0;
+  font-family: Jost;
+}
+
+/*.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.timeline {
+  
+  width:100%;
+  height: auto;
+  max-width: 900px;
+  margin: 0 auto;
+/*  display: flex;*/
+  flex-direction: column;
+  margin-top: 40px;
+}
+.timeline-content h6{
+        color: #FE9300;
+        font-family: 'Georama';
+        font-style: normal;
+        font-style: 20px;
+        font-weight: 500;
+}
+
+.timeline-content span{
+
+    font-family: Consolas;
+    font-style: 10px;
+}
+
+
+.timeline-content {
+  padding: 20px;
+  background:#2B4D15;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #dark;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #dark;
+  border-radius: 5px;
+  color:#fff;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg,#FFFF14,#FFFF14,#FFFF14);
+    width: 3px;
+    height: 90%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #898989, #898989, #898989);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+
+ /*-------------*/
+ .cttct{
+     background: var(--bg);
+      opacity: 0.7;
+      margin-top: -50px;
+      height: 600px;
+     clip-path: polygon(0 0, 100% 0, 100% 95%, 0 99%);
+
+ }
+  .cttct .cntct-bg img{
+    margin-top: 90px;
+
+
+ }
+ .cttct  .cntct-bg a i{
+ 	background: #fff;
+ 	padding: 30px;
+ 	font-size: 47px;
+ 	border-radius: 50%;
+
+
+ 	color: #DADADA;
+ }
+ .cttct  .cntct-bg a i:hover{
+ 	color:#000;
+ }
+ /*---------ftr--------*/
+ .fotr-bg ul li{
+ 	display: inline-block;
+ 	padding: 17px;
+
+
+ }
+/*
+ .fotr-bg{
+ 	margin-top: 120px;
+ }*/
+
+ .ftr{
+    background: var(--bg);
+    width: 100%;
+    height: 95px;
+    margin-top: -50px;
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 99%);
+ }
+ .ftr .container{
+
+ }
+ .fotr-bg h6{
+ 	margin-top: 21px;
+ 	color: #fff;
+ 	font-family: 'Georama';
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	letter-spacing: 0.02em;
+    line-height: 50px;
+ }
+ .main-bg .fotr-bg ul li{
+ 	display: inline-block;
+ 	color: #fff;
+ 	font-family: 'Georama';
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	line-height: 10px;
+ 	letter-spacing: 0.02em;
+ 	text-decoration: none;
+    margin-top: 100px;
+
+
+ }
+
+
